@@ -24,9 +24,11 @@ var githubLink = function(title, relative, date) {
 };
 output = [
 	githubLink('All of heartbleed', '2014/all-of-heartbleed', 'April 11, 2014'),
+	githubLink('A new formatting plugin', '2015/a-new-formatting-plugin', 'May 13, 2015'),
 	'', ''
 	].join('\n');
 -->
 * [All of heartbleed](https://github.com/diffplug/blog/tree/master/2014/all-of-heartbleed) (April 11, 2014)
+* [A new formatting plugin](https://github.com/diffplug/blog/tree/master/2015/a-new-formatting-plugin) (May 13, 2015)
 
 <!---freshmark /toc -->
