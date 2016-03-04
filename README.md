@@ -19,16 +19,20 @@ output = [
 DiffPlug's blog.  We host it here so that we can run CI on all our code examples, and make sure it's easy for you to grab them if you'd like to.  Feel free to raise issues if you'd like to talk about something, or submit PR's if you see any mistakes.
 
 <!---freshmark toc
-var githubLink = function(title, relative, date) {
-	return '* ' + link(title, 'https://github.com/diffplug/blog/tree/master/' + relative) + ' (' + date + ')';
+var githubLink = function(title, date) {
+	var year = date.substring(date.lastIndexOf(' ') + 1);
+	var url = 'https://github.com/diffplug/blog/tree/master/' + year + '/' + title.toLowerCase().replace(/ /g, '-');
+	return '* ' + link(title, url) + ' (' + date + ')';
 };
 output = [
-	githubLink('All of heartbleed', '2014/all-of-heartbleed', 'April 11, 2014'),
-	githubLink('A new formatting plugin', '2015/a-new-formatting-plugin', 'May 13, 2015'),
+	githubLink('All of heartbleed', 				'April 11, 2014'),
+	githubLink('A new formatting plugin',			'May 13, 2015'),
+	githubLink('A library by any other version',	'May 15, 2015'),
 	'', ''
 	].join('\n');
 -->
 * [All of heartbleed](https://github.com/diffplug/blog/tree/master/2014/all-of-heartbleed) (April 11, 2014)
 * [A new formatting plugin](https://github.com/diffplug/blog/tree/master/2015/a-new-formatting-plugin) (May 13, 2015)
+* [A library by any other version](https://github.com/diffplug/blog/tree/master/2015/a-library-by-any-other-version) (May 15, 2015)
 
 <!---freshmark /toc -->
