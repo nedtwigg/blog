@@ -16,4 +16,17 @@ output = [
 [![Medium](https://img.shields.io/badge/medium-medium.com%2F%40ned.twigg-ff69b4.svg)](https://medium.com/@ned.twigg)
 <!---freshmark /shields -->
 
-DiffPlug's blog.
+DiffPlug's blog.  We host it here so that we can run CI on all our code examples, and make sure it's easy for you to grab them if you'd like to.  Feel free to raise issues if you'd like to talk about something, or submit PR's if you see any mistakes.
+
+<!---freshmark toc
+var githubLink = function(title, relative, date) {
+	return '* ' + link(title, 'https://github.com/diffplug/blog/tree/master/' + relative) + ' (' + date + ')';
+};
+output = [
+	githubLink('All of heartbleed', '2014/all-of-heartbleed', 'April 11, 2014'),
+	'', ''
+	].join('\n');
+-->
+* [All of heartbleed](https://github.com/diffplug/blog/tree/master/2014/all-of-heartbleed) (April 11, 2014)
+
+<!---freshmark /toc -->
