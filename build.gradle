@@ -2,11 +2,15 @@ plugins {
 	id "com.diffplug.gradle.spotless" version "1.3.2"
 }
 
+// Travis always calls assemble, even though we don't want it to.  Not sure why.  Easy to fix though.
+task assemble;
+// This is what Travis calls to check that everything is fine.
+task check;
+
 ////////////
 // FORMAT //
 ////////////
 // apply formatting in the root project so that we get formatting for our README, project files, etc
-apply plugin: 'com.diffplug.gradle.spotless'
 spotless {
 	java {
 		target '**/*.java'
@@ -26,3 +30,4 @@ spotless {
 	}
 	freshmark {}
 }
+check.dependsOn('spotlessCheck')
