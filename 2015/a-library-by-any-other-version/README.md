@@ -25,4 +25,12 @@ So go out, and break compatibility to [fix things that are broken](https://githu
 
 But most of all, have fun, and **thank you so much for releasing your code as open source!**
 
-* [Blog](http://blog.nedtwigg.diffplug.com/a-library-by-any-other-version)
+<!---freshmark follow
+output = follow;
+-->
+* [Follow @DiffPlug](https://twitter.com/DiffPlug)
+* [Follow @NedTwigg](https://twitter.com/NedTwigg)
+* [Medium](https://medium.com/diffplug)
+* [Facebook](https://www.facebook.com/DiffPlug)
+
+<!---freshmark /follow -->

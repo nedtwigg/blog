@@ -48,6 +48,12 @@ If you'd like to know more about Gradle and p2, [here's a youtube video](https:/
 
 Future blog posts will dive deeper into these topics.  If you'd like to be notified, you can follow its development on any of these channels:
 
-- Watch the blog on [GitHub](https://github.com/diffplug/blog).
-- Subscribe on [Medium](https://medium.com/diffplug).
-- Follow on twitter: [@DiffPlug](https://twitter.com/DiffPlug), [@NedTwigg](https://twitter.com/NedTwigg).
+<!---freshmark follow
+output = follow;
+-->
+* [Follow @DiffPlug](https://twitter.com/DiffPlug)
+* [Follow @NedTwigg](https://twitter.com/NedTwigg)
+* [Medium](https://medium.com/diffplug)
+* [Facebook](https://www.facebook.com/DiffPlug)
+
+<!---freshmark /follow -->

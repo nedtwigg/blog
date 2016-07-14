@@ -10,6 +10,13 @@ task check;
 ////////////
 // FORMAT //
 ////////////
+String FOLLOW_LINK = '''
+* [Follow @DiffPlug](https://twitter.com/DiffPlug)
+* [Follow @NedTwigg](https://twitter.com/NedTwigg)
+* [Medium](https://medium.com/diffplug)
+* [Facebook](https://www.facebook.com/DiffPlug)
+
+'''
 // apply formatting in the root project so that we get formatting for our README, project files, etc
 spotless {
 	java {
@@ -28,6 +35,8 @@ spotless {
 		trimTrailingWhitespace()
 		endWithNewline()
 	}
-	freshmark {}
+	freshmark {
+		properties([follow: FOLLOW_LINK])
+	}
 }
 check.dependsOn('spotlessCheck')

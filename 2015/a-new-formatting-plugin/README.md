@@ -12,4 +12,12 @@ As far as I know, Spotless is the first formatting package to combine three key 
 
 If you're using something else that you like better, I'd love to hear why!  And if you're not using Spotless already, why not?
 
-* [Blog](http://blog.nedtwigg.diffplug.com/a-new-formatting-plugin)
+<!---freshmark follow
+output = follow;
+-->
+* [Follow @DiffPlug](https://twitter.com/DiffPlug)
+* [Follow @NedTwigg](https://twitter.com/NedTwigg)
+* [Medium](https://medium.com/diffplug)
+* [Facebook](https://www.facebook.com/DiffPlug)
+
+<!---freshmark /follow -->

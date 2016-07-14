@@ -14,4 +14,12 @@ This is a command that copies `payload` number of bytes from `pl` (which is what
 
 And that's why all your passwords are ruined now. Not basically why - all of why.
 
-* [Blog](http://blog.nedtwigg.diffplug.com/all-of-heartbleed)
+<!---freshmark follow
+output = follow;
+-->
+* [Follow @DiffPlug](https://twitter.com/DiffPlug)
+* [Follow @NedTwigg](https://twitter.com/NedTwigg)
+* [Medium](https://medium.com/diffplug)
+* [Facebook](https://www.facebook.com/DiffPlug)
+
+<!---freshmark /follow -->
