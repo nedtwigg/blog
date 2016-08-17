@@ -19,7 +19,7 @@ output = follow;
 -->
 * [Follow @DiffPlug](https://twitter.com/DiffPlug)
 * [Follow @NedTwigg](https://twitter.com/NedTwigg)
-* [Medium](https://medium.com/diffplug)
+* [Blog](http://discuss.diffplug.com/c/blog), echoed on [Medium](https://medium.com/diffplug)
 * [Facebook](https://www.facebook.com/DiffPlug)
 
 <!---freshmark /follow -->
