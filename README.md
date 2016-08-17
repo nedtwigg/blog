@@ -32,7 +32,8 @@ output = [
 	githubLink('All of heartbleed', 				'April 11, 2014'),
 	githubLink('A new formatting plugin',			'May 13, 2015'),
 	githubLink('A library by any other version',	'May 15, 2015'),
-	githubLink('P2, Maven, and Gradle',	'July 14, 2016'),
+	githubLink('P2, Maven, and Gradle',				'July 14, 2016'),
+	githubLink('Parting out Eclipse',				'August 17, 2016'),
 	'', ''
 	].join('\n');
 -->
@@ -40,6 +41,7 @@ output = [
 * [A new formatting plugin](https://github.com/diffplug/blog/tree/master/2015/a-new-formatting-plugin) (May 13, 2015)
 * [A library by any other version](https://github.com/diffplug/blog/tree/master/2015/a-library-by-any-other-version) (May 15, 2015)
 * [P2, Maven, and Gradle](https://github.com/diffplug/blog/tree/master/2016/p2-maven-and-gradle) (July 14, 2016)
+* [Parting out Eclipse](https://github.com/diffplug/blog/tree/master/2016/parting-out-eclipse) (August 17, 2016)
 
 <!---freshmark /toc -->
 
