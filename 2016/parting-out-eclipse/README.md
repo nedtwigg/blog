@@ -94,9 +94,11 @@ If you'd like to see a working example, check out [Spotless](https://github.com/
 <!---freshmark follow
 output = follow;
 -->
-* [Follow @DiffPlug](https://twitter.com/DiffPlug)
-* [Follow @NedTwigg](https://twitter.com/NedTwigg)
-* [Blog](http://discuss.diffplug.com/c/blog), echoed on [Medium](https://medium.com/diffplug)
-* [Facebook](https://www.facebook.com/DiffPlug)
+[![Watch](https://img.shields.io/github/watchers/diffplug/blog.svg?style=social&label=Watch)](https://github.com/diffplug/blog/subscription)
+[![Star](https://img.shields.io/github/stars/diffplug/blog.svg?style=social&label=Star)](https://github.com/diffplug/blog/stargazers)
+[![Follow @DiffPlug](https://img.shields.io/twitter/follow/DiffPlug.svg?style=social&label=Follow)](https://twitter.com/DiffPlug)
+[![Follow @NedTwigg](https://img.shields.io/twitter/follow/NedTwigg.svg?style=social&label=Follow)](https://twitter.com/NedTwigg)
+[Blog](http://discuss.diffplug.com/c/blog), echoed on [Medium](https://medium.com/diffplug)
+[Facebook](https://www.facebook.com/DiffPlug)
 
 <!---freshmark /follow -->
