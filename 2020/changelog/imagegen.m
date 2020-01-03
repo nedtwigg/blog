@@ -50,7 +50,7 @@ title('0.(rg-chromaticity).(b-chromaticity)')
 
 %% intensity
 subplot(4,2,7)
-intensity_detail = 6; % dithering provides a lot of info
+intensity_detail = 3; % 0.x, 1.x, 2.x, 3.x
 intensity_0_1 = (r+g+b)/3/255;
 intensity_binned = round(intensity_detail * intensity_0_1)/intensity_detail;
 imshow(cat(3, intensity_binned, intensity_binned, intensity_binned))
