@@ -39,6 +39,7 @@ subplot(2,num_attempts, 3)
 
 smashed_rg_norm = (r+g) * (255/max(max(r+g)));
 imshow(uint8(cat(3, 0*unit, smashed_rg_norm, b)))
+imwrite(uint8(cat(3, 0*unit, smashed_rg_norm, b)), 'lena-0.r+g.b.jpeg')
 title('0.(r+g)^N.b')
 
 %% Rescaled only as necessary (YCbCr)
@@ -68,20 +69,18 @@ scale_ycb = 255/max(max(y_+cb_));
 imshow(fromYCbCr(cat(3,0*unit, scale_ycb*(y_+cb_), scale_ycb*cr)))
 title('(0.Y+Cb.Cr)^N')
 
-%% Halve all channels (RGB)
+%% rg chromaticity
+tot = r+g+b;
 subplot(2,num_attempts,5)
-imshow(uint8(cat(3, 0*unit, 0.5*(r+g), 0.5*b)))
-title('(0.r+g.b)/2')
+imshow(cat(3, r./tot, g./tot, b./tot))
+title('rg chromaticity')
 
-%% Halve all channels (YCbCr)
 subplot(2,num_attempts,num_attempts+5)
+rg_averaged = 0.5*(r+g)./tot;
+imshow(cat(3, 0*unit, rg_averaged, b./tot))
+imwrite(cat(3, 0*unit, rg_averaged, b./tot), 'lena-0.rg-chromaticity.jpeg')
+title('0.rg chromaticity')
 
-y_  = double(y);
-cb_ = double(cb);
-scale_ycb = 255/max(max(y_+cb_));
-
-imshow(fromYCbCr(cat(3, 0*unit, scale_ycb*(y_+cb_), scale_ycb*cr)))
-title('(0.Y+Cb.Cr)/2')
 
 %% Math
 function out = limitRound(in)
