@@ -31,6 +31,7 @@ subplot(3,2,5)
 tot = r+g+b;
 rg_averaged = 0.5*(r+g)./tot;
 imshow(cat(3, r./tot, g./tot, b./tot))
+imwrite(cat(3, r./tot, g./tot, b./tot), 'lena-rgb-chromaticity.jpeg')
 title('rgb chromaticity')
 
 %% 0.rg chromaticity
