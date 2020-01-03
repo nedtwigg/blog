@@ -1,5 +1,5 @@
 %% Original
-rgb = imread('img-rgb.png');
+rgb = imread('img-rgb.png'); % parrots http://r0k.us/graphics/kodak/kodim23.html
 
 subplot(4,2,1)
 imshow(rgb)
@@ -28,27 +28,29 @@ title('0.(r+g)/2.b')
 %% rg chromaticity
 subplot(4,2,5)
 
+fix = @(x) fillmissing(x, 'constant', 0);
+
 tot = r+g+b;
-imshow(cat(3, r./tot, g./tot, b./tot))
+imshow(fix(cat(3, r./tot, g./tot, b./tot)))
 title('rgb chromaticity')
 
 %% 0.rg chromaticity
 subplot(4,2,6)
 
-tot = r+g+b;
-rg_averaged = 0.5*(r+g)./tot;
+rg_averaged = fix(0.5*(r+g)./tot);
+bg_chrom = fix(cat(3, 0*unit, rg_averaged, b./tot));
 
 avg_green = mean(mean(mean(uint8(cat(3, 0*unit, (r + g)/2, b)))));
-avg_rg = mean(mean(mean(cat(3, 0*unit, rg_averaged, b./tot))));
-gain = avg_green/255/avg_rg;
+avg_rg = mean(mean(mean(rg_averaged)));
+gain = avg_rg/(avg_green/255); 
 
-imshow(cat(3, 0*unit, gain*rg_averaged, gain*b./tot))
-imwrite(cat(3, 0*unit, gain*rg_averaged, gain*b./tot), 'img-0.rg-chromaticity.jpeg')
+imshow(gain * bg_chrom)
+imwrite(gain * bg_chrom, 'img-0.rg-chromaticity.jpeg')
 title('0.(rg-chromaticity).(b-chromaticity)')
 
 %% intensity
 subplot(4,2,7)
-intensity_detail = 1; % dithering provides a lot of info
+intensity_detail = 6; % dithering provides a lot of info
 intensity_0_1 = (r+g+b)/3/255;
 intensity_binned = round(intensity_detail * intensity_0_1)/intensity_detail;
 imshow(cat(3, intensity_binned, intensity_binned, intensity_binned))
@@ -56,6 +58,6 @@ title('binned intensity')
 
 %% intensity-modulated chromaticity
 subplot(4,2,8)
-imshow(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot))
-imwrite(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot), 'img-rg-chromaticity-binned-intensity.jpeg')
+imshow(fix(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot)))
+imwrite(fix(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot)), 'img-rg-chromaticity-binned-intensity.jpeg')
 title('rg-chromaticity binned intensity ')
