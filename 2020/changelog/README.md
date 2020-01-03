@@ -1,6 +1,6 @@
 # version = f(changelog)
 
-As a user, it's nice when a project has a changelog.  As a maintainer, it is a chore to keep the changelog up-to-date, and many maintainers don't.  Unfortunately, they can't opt out of "Is this a big-enough change to justify a new major version?  Is this good enough for 1.0?"  But these two tasks are actually tightly coupled!
+As a user, it's nice when a project has a changelog.  As a maintainer, it's a chore to keep the changelog up-to-date, and many maintainers don't.  Unfortunately, they can't opt-out from asking "Is this a big-enough change to justify a new major version?  Is this good enough for 1.0?"  But these two tasks are actually tightly coupled!
 
 - **changelog**: what changed since the last version
 - **version**: project these changes (and the absolute level of project quality) onto the three-dimensional vector space of non-negative integers `x.y.z`, path dependent on the previously published three-vector
@@ -26,7 +26,7 @@ Around 1600[^1], Galileo notices that liquids expand and contract ever so slight
 In retrospect, it's quite vain to think our armpits would be some godly universal constant.  Just one apex-predator-of-the-era earlier, Tyrannosaurus Newton would have had no such luck, but just such vanity.  Perhaps that's what kept the dinosaurs from...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm off-track.
 
-The point is, our field is young.  The word ["changelog" hardly appears at all in the english language until 1990](https://books.google.com/ngrams/graph?content=changelog%2Cchange+log&case_insensitive=on&year_start=1880&year_end=2008&corpus=15&smoothing=3&share=&direct_url=t4%3B%2Cchangelog%3B%2Cc0%3B%2Cs0%3B%3BChangeLog%3B%2Cc0%3B%3Bchangelog%3B%2Cc0%3B%3BChangelog%3B%2Cc0%3B.t4%3B%2Cchange%20log%3B%2Cc0%3B%2Cs0%3B%3Bchange%20log%3B%2Cc0%3B%3BChange%20Log%3B%2Cc0%3B%3BChange%20log%3B%2Cc0%3B%3BCHANGE%20LOG%3B%2Cc0%3B%3Bchange%20Log%3B%2Cc0#t4%3B%2Cchangelog%3B%2Cc0%3B%2Cs0%3B%3BChangeLog%3B%2Cc0%3B%3Bchangelog%3B%2Cc0%3B%3BChangelog%3B%2Cc0%3B.t4%3B%2Cchange%20log%3B%2Cc0%3B%2Cs0%3B%3Bchange%20log%3B%2Cc0%3B%3BChange%20Log%3B%2Cc0%3B%3BChange%20log%3B%2Cc0%3B%3BCHANGE%20LOG%3B%2Cc0%3B%3Bchange%20Log%3B%2Cc0).  And dependency hell was restrained from its true inferno until MavenCentral came online in 2007[^4].  Just as Newton the mint-warden had a more practical interest in temperature than did Galileo the planet-looker, so too does Koçulu the left-padder have a more practical interest in changelogs than Torvalds the kernel-maker.  I very much doubt that we've yet found the final changelog / version convention!
+The point is, our field is *young*.  The word ["changelog" hardly appears at all in the english language until 1990](https://books.google.com/ngrams/graph?content=changelog%2Cchange+log&case_insensitive=on&year_start=1880&year_end=2008&corpus=15&smoothing=3&share=&direct_url=t4%3B%2Cchangelog%3B%2Cc0%3B%2Cs0%3B%3BChangeLog%3B%2Cc0%3B%3Bchangelog%3B%2Cc0%3B%3BChangelog%3B%2Cc0%3B.t4%3B%2Cchange%20log%3B%2Cc0%3B%2Cs0%3B%3Bchange%20log%3B%2Cc0%3B%3BChange%20Log%3B%2Cc0%3B%3BChange%20log%3B%2Cc0%3B%3BCHANGE%20LOG%3B%2Cc0%3B%3Bchange%20Log%3B%2Cc0#t4%3B%2Cchangelog%3B%2Cc0%3B%2Cs0%3B%3BChangeLog%3B%2Cc0%3B%3Bchangelog%3B%2Cc0%3B%3BChangelog%3B%2Cc0%3B.t4%3B%2Cchange%20log%3B%2Cc0%3B%2Cs0%3B%3Bchange%20log%3B%2Cc0%3B%3BChange%20Log%3B%2Cc0%3B%3BChange%20log%3B%2Cc0%3B%3BCHANGE%20LOG%3B%2Cc0%3B%3Bchange%20Log%3B%2Cc0).  And dependency hell was restrained from its true inferno until MavenCentral came online in 2007[^4].  Just as Newton the mint-warden had a more practical interest in temperature than did Galileo the planet-looker, so too does Koçulu the left-padder have a more practical interest in changelogs than Torvalds the kernel-maker.  I very much doubt that we've yet found the final changelog / version convention!
 
 <!-- Can make these display properly in GitHub with https://stackoverflow.com/a/29384216/1153071  -->
 [1] [1592-3, to be more precise.](https://en.wikipedia.org/wiki/Timeline_of_temperature_and_pressure_measurement_technology#cite_note-1)
@@ -41,23 +41,23 @@ The point is, our field is young.  The word ["changelog" hardly appears at all i
 
 Each morning, I look at my phone, and it tells me something like `high of 70°F, low of 50°F`.  And the problem is, I don't know what that feels like.  Does my kid need a jacket?  I have no idea, I gotta go outside and feel it.
 
-So I get it, I get that "the mercury expanded X% so the temperature is Y" is less actionable than "it is cold, and you should put on a jacket".  But *every freaking morning* my spouse and I have to argue about the friggin jacket.  *ITS cOld oN ThE biKE*.
+So I get it, I get that "the mercury expanded X% so the temperature is Y" is less actionable than "it is cold, and you should put on a jacket".  But *every friggin morning* my spouse and I argue about the friggin jacket.  *ITS cOld oN ThE biKE*.
 
-I don't want a Nest that shows me the temperature in °F, I want one of three pictures: kid in shorts, kid in pants, kid in jacket.  And that's it!  If the setpoints are off by 5°F, that's fine!  The kid will be fine!  If we notice a consistent problem, we can adjust the setpoints.  It's important to make a reasonable jacket decision, but **it doesn't have to be that precise, and it's hard to get a team (even a married team!) to agree when we're arguing within the margin of error**. It's almost a tautology - of course you can't agree when the margin of error/subjectivity is bigger than the distance you're arguing over.
+I don't want a Nest that shows me the temperature in °F, I want one of three pictures: kid in shorts, kid in pants, kid in jacket.  And that's it!  If the setpoints are off by 5°F, that's fine!  The kid will be fine!  If we notice a consistent problem, we can adjust the setpoints.  It's important to make a reasonable jacket decision, but **it doesn't have to be that precise, and it's hard to get a team (even a happily-married team!) to agree when we're arguing within the margin of error**. It's almost a tautology - of course you can't win an argument if the margin of error/subjectivity is bigger than the distance you're arguing over, and most of us are trying to win rather than agree within +/-ε.
 
-The clincher is that although *versions* don't matter that much, *changelogs* absolutely do.  And there are a lot of projects in MavenCentral and NPM which have no changelogs, but every single one of them has versions.  It's the opposite of what you want!  The meaningful thing?  Optional.  The ambiguous, almost meaningless thing?  REQUIRED.  If there's only enough energy to do one thing, spend it on the changelog! As Julius Caesar said at the RubyConf in 49BC: ***The changelog is cast, let the versions fall where they may.***
+The clincher is that although *versions* don't matter that much, *changelogs* absolutely do.  And there are a lot of projects in MavenCentral and NPM which have no changelogs, but every single one of them has versions.  It's the opposite of what you want!  The meaningful thing?  Optional.  The ambiguous, almost meaningless thing?  REQUIRED.  If there's only enough energy to do one thing, spend it all on the changelog! As Julius Caesar said at the RubyConf in 49BC: ***The changelog is cast, let the versions fall where they may.***
 
 ## It's trivial to implement
 
-There is some disagreement over how to name `x.y.z`.  I'm going to use `BREAKING.ADDED.FIX`.  If you're using the standard [keepachangelog](https://keepachangelog.com/en/1.0.0/) format, it is a trivial computation to turn a changelog into a version bump.
+There is some disagreement over how to name `x.y.z`.  I'm going to use `BREAKING.ADDED.FIXED`.  If you're using the standard [keepachangelog](https://keepachangelog.com/en/1.0.0/) format, it is a trivial computation to turn a changelog into a version bump.
 
 ```
 ## [Unreleased]
 ### Added
-- foo() can now accept bar as an input
-- **BREAKING** you now have to call fooInit() before any call to foo()
+- `foo()` can now accept `bar` as an input
+- **BREAKING** you now have to call `fooInit()` before any call to `foo()`
 
-## [1.2.3] - 2020-01-02
+## [3.1.4] - 2020-01-02
 ...
 ```
 
@@ -68,24 +68,29 @@ When it comes time to cut a release, just follow this algorithm:
 - Within that string that you just extracted
 	- Can you find `**BREAKING**`?  If so, bump `BREAKING`.
 	- Can you find `\n### Added`?  If so, bump `ADDED`.
-	- Else, bump `FIX`.
+	- Else, bump `FIXED`.
 
 If you happen to be using the JVM, [Spotless Changelog](https://github.com/diffplug/spotless-changelog) has implemented this logic (and more) as a library and also as a gradle plugin.
 
 ## Pre-1.0, 0.x, and other forms of performative insecurity
 
-Many people [misuse versions as though they were brands](https://youtu.be/AVGM7kH7Hjw?t=10), rather than **a concise technical description of the integration work your users can expect**.  Just because "the Web" made a big deal about its "2.0" release, that doesn't mean that you should inflict that same languagemurder onto the people who use your projects.  If you want to make a big deal about a new release, add a [release brand](https://kichwacoders.com/2016/04/28/why-its-time-to-kill-the-eclipse-release-namesneon-oxygen-etc/) (e.g. `FooLib 5.12 - ZΣЦƧ ΣDIƬIӨП`).  If you're not so much making a breaking change as making an entirely new thing (e.g. `Play Framework 1` vs `Play Framework 2`), then you'll do a lot better if you make a new name altogether (e.g `PlayScala`, `PlayNew`, `NewPlay`, `Play64`, `Play360`, etc).
+Many people [misuse versions as though they were brands](https://youtu.be/AVGM7kH7Hjw?t=10), rather than **a concise technical description of the integration work your users can expect**.  Just because "the Web" made a big deal about its "2.0" release, that doesn't mean that you should inflict that same languagemurder onto the people who use your projects.  If you want to make a big deal about a new release, add a [release brand](https://kichwacoders.com/2016/04/28/why-its-time-to-kill-the-eclipse-release-namesneon-oxygen-etc/) (e.g. `FooLib 5.12 - ZΣЦƧ ΣDIƬIӨП`).  If you're not so much making a breaking change as making an entirely new thing (e.g. `Play Framework 1` vs `Play Framework 2`), then you'll do a lot better if you make a new name altogether (e.g. `PlayScala`, `PlayNew`, `NewPlay`, `Play64`, `Play360`, etc).
 
 If you really want to go the "2" route, do it like this: `Play2 1.0, Play2 1.1, Play2 2.0 Play2 3.0`.  If you don't, you will permanently destroy the ability of your users to A) google the project they meant and B) find **a concise technical description of the integration work they can expect**.
 
 The more common way to <sub>ab</sub>use a version is to press it into service as a code-quality / roadmap-firmness metric.  Nobody, and I mean nobody, has code with that much quality, or a roadmap with that much firmness.  They're just doing their best.  Same as you!  You've got just as much right to call what you've built a `1.0` as anybody else who has ever released a `1.0`.
 
-That said, it can be handy to have an `0.x` series for the purpose of getting a project onto its legs.  Once somebody besides you is using the project, you should bump to `1.0.0`, but ultimately that's for you to decide.  People will judge you for sharing `0.x` libraries, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the minor version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  This is *almost exactly* analagous to smashing an R.G.B image into [0.(R+G).B](https://www.cosy.sbg.ac.at/~pmeerw/Watermarking/lena.html).  Actually, it's worse, because the first channel of semver is at least 10x more important than the second channel, which itself is 2x more important than the third, while R, G, and B are roughly equal.  A better analogy would be 0.(Y+C<sub>B</sub>).C<sub>R</sub>.  Oops, that's so bad that that you can't see anything.  (Y+C<sub>B</sub>).(Y+C<sub>B</sub>).C<sub>R</sub>.  There, it's about that bad.
+That said, it can be handy to have an `0.x` series for the purpose of getting a project onto its legs.  Once somebody besides you is using the project, you should bump to `1.0.0`, but ultimately that's for you to decide.  People will judge you for sharing `0.x` libraries, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is exactly analagous to smashing an `R.G.B` image into `0.(R+G).B`.
+
+![0.r+g.b](lena-0.r+g.b.jpeg)
+
+But perceptually, it's far worse.  The `0.(R+G).B` transformation preserves intensity information, which is by far the most important signal in human vision.  To see the exact *perceptual* analogue, we have to go the rg chromaticity space.[^1]
+
+![0.r+g.b](lena-0.rg-chromaticity.jpeg)
 
 *&lt;whine&gt;But my code isn't stable.  The API might change.&lt;/whine&gt;*
 
-![](cant-handle-the-truth.jpeg)
-
+![Looong inhale](cant-handle-the-truth.jpeg)
 
 **Every API you have ever seen, known, or loved is going to die.** You'll probably even live long enough to see it with your own eyes. *You might even be the only&nbsp;&nbsp; one&nbsp;&nbsp; who&nbsp;&nbsp; notices.*
 
@@ -93,4 +98,10 @@ https://youtu.be/L9RPdBv-DkU?t=416
 
 Whether that makes you lucky or not, I can't guess. But it is **goshdarn time** to **grow the fudge up** and take some **effing responsibility** for the fact that you're a maintainer now.
 
-No one is ever ready for 1.0 and semver.  It's just like John Lennon said. ***Changelog is what happens while you're busy making other plans.***
+No one is ever ready to bump the changelog.  It's just like John Lennon said. ***Changelog is what happens while you're busy making other plans.***
+
+
+[1] If you've published a 1.0, but you're making soft value judgements about whether a breaking change is breaking enough to justify bumping the breaking-change-number, then this is the best perceptual analogue I could come up with. It's still too accurate because the dithering gives too much away.
+![0.r+g.b](lena-rg-chromaticity-binned-intensity.jpeg)
+
+[2] If you are upset that I used the Lena picture, good.  Defaults matter, and this is a bad one.  But the "joke" is more effective if I can say "this is an image-processing joke, and you already have the original in your head".  In January 2020, I couldn't figure out how to make this joke without it.  Please tweet me @NedTwigg if there is a well-established default for image-procesing examples.  At the very least, I set a calendar reminder for January 1st 2030.  Even if there isn't a new default, at the very least this image should be obscure-enough that it won't work as a joke anymore, and I'll use some other picture.
