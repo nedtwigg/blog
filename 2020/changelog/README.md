@@ -99,9 +99,3 @@ https://youtu.be/L9RPdBv-DkU?t=416
 Whether that makes you lucky or not, I can't guess. But it is **goshdarn time** to **grow the fudge up** and take some **effing responsibility** for the fact that you're a maintainer now.
 
 No one is ever ready to bump the changelog.  It's just like John Lennon said. ***Changelog is what happens while you're busy making other plans.***
-
-
-[1] If you've published a 1.0, but you're making soft value judgements about whether a breaking change is breaking enough to justify bumping the breaking-change-number, then this is the best perceptual analogue I could come up with. It's still too accurate because the dithering gives too much away.
-![0.r+g.b](img-rg-chromaticity-binned-intensity.jpeg)
-
-[2] If you are upset that I used the Lena picture, good.  Defaults matter, and this is a bad one.  But the "joke" is more effective if I can say "this is an image-processing joke, and you already have the original in your head".  In January 2020, I couldn't figure out how to make this joke without it.  Please tweet me @NedTwigg if there is a well-established default for image-procesing examples.  At the very least, I set a calendar reminder for January 1st 2030.  Even if there isn't a new default, at the very least this image should be obscure-enough that it won't work as a joke anymore, and I'll use some other picture.
