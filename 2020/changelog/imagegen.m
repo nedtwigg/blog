@@ -1,5 +1,5 @@
 %% Original
-rgb = imread('lena-rgb.png');
+rgb = imread('img-rgb.png');
 
 subplot(4,2,1)
 imshow(rgb)
@@ -22,7 +22,7 @@ title('0.(r+g).b - saturates, but version numbers dont')
 %% 0.(r+g)/2.b
 subplot(4,2,4)
 imshow(uint8(cat(3, 0*unit, (r + g)/2, b)))
-imwrite(uint8(cat(3, 0*unit, (r + g)/2, b)), 'lena-0.r+g.b.jpeg')
+imwrite(uint8(cat(3, 0*unit, (r + g)/2, b)), 'img-0.r+g.b.jpeg')
 title('0.(r+g)/2.b')
 
 %% rg chromaticity
@@ -43,7 +43,7 @@ avg_rg = mean(mean(mean(cat(3, 0*unit, rg_averaged, b./tot))));
 gain = avg_green/255/avg_rg;
 
 imshow(cat(3, 0*unit, gain*rg_averaged, gain*b./tot))
-imwrite(cat(3, 0*unit, gain*rg_averaged, gain*b./tot), 'lena-0.rg-chromaticity.jpeg')
+imwrite(cat(3, 0*unit, gain*rg_averaged, gain*b./tot), 'img-0.rg-chromaticity.jpeg')
 title('0.(rg-chromaticity).(b-chromaticity)')
 
 %% intensity
@@ -57,5 +57,5 @@ title('binned intensity')
 %% intensity-modulated chromaticity
 subplot(4,2,8)
 imshow(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot))
-imwrite(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot), 'lena-rg-chromaticity-binned-intensity.jpeg')
+imwrite(cat(3, 0*unit, 3.*intensity_binned .* g./tot, 3.*intensity_binned .* b./tot), 'img-rg-chromaticity-binned-intensity.jpeg')
 title('rg-chromaticity binned intensity ')

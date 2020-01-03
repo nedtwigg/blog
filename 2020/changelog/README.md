@@ -82,11 +82,11 @@ The more common way to <sub>ab</sub>use a version is to press it into service as
 
 That said, it can be handy to have an `0.x` series for the purpose of getting a project onto its legs.  Once somebody besides you is using the project, you should bump to `1.0.0`, but ultimately that's for you to decide.  People will judge you for sharing `0.x` libraries, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is exactly analagous to smashing an `R.G.B` image into `0.(R+G).B`.
 
-![0.r+g.b](lena-0.r+g.b.jpeg)
+![0.r+g.b](img-0.r+g.b.jpeg)
 
 But perceptually, it's far worse.  The `0.(R+G).B` transformation preserves intensity information, which is by far the most important signal in human vision.  To see the exact *perceptual* analogue, we have to go the rg chromaticity space.[^1]
 
-![0.r+g.b](lena-0.rg-chromaticity.jpeg)
+![0.r+g.b](img-0.rg-chromaticity.jpeg)
 
 *&lt;whine&gt;But my code isn't stable.  The API might change.&lt;/whine&gt;*
 
@@ -102,6 +102,6 @@ No one is ever ready to bump the changelog.  It's just like John Lennon said. **
 
 
 [1] If you've published a 1.0, but you're making soft value judgements about whether a breaking change is breaking enough to justify bumping the breaking-change-number, then this is the best perceptual analogue I could come up with. It's still too accurate because the dithering gives too much away.
-![0.r+g.b](lena-rg-chromaticity-binned-intensity.jpeg)
+![0.r+g.b](img-rg-chromaticity-binned-intensity.jpeg)
 
 [2] If you are upset that I used the Lena picture, good.  Defaults matter, and this is a bad one.  But the "joke" is more effective if I can say "this is an image-processing joke, and you already have the original in your head".  In January 2020, I couldn't figure out how to make this joke without it.  Please tweet me @NedTwigg if there is a well-established default for image-procesing examples.  At the very least, I set a calendar reminder for January 1st 2030.  Even if there isn't a new default, at the very least this image should be obscure-enough that it won't work as a joke anymore, and I'll use some other picture.
