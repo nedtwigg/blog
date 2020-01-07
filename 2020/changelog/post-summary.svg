@@ -8,39 +8,39 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="post-summary.svg"
-   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 2304 512"
-   height="512"
-   width="2304"
-   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-title.png"
+   inkscape:export-ydpi="72.375"
    inkscape:export-xdpi="72.375"
-   inkscape:export-ydpi="72.375">
+   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-summary.png"
+   width="2304"
+   height="512"
+   viewBox="0 0 2304 512"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
+   sodipodi:docname="post-summary.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="23"
-     inkscape:window-x="0"
-     inkscape:window-height="907"
-     inkscape:window-width="1600"
-     showguides="true"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="310.85003"
-     inkscape:cx="1352.3699"
-     inkscape:zoom="0.49497475"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1352.3699"
+     inkscape:cy="310.85003"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="907"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -49,14 +49,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <image
        sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/img-rgb.png"
        xlink:href="img-rgb.png"
@@ -88,68 +88,68 @@
        style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
        id="image2142" />
     <rect
-       y="2.6263849e-06"
-       x="-3.3349609e-06"
-       height="68"
-       width="472"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.848507;stop-opacity:1"
        id="rect869-9"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.848507;stop-opacity:1" />
+       width="472"
+       height="68"
+       x="-3.3349609e-06"
+       y="2.6263849e-06" />
     <text
-       id="text873-9"
-       y="50.244984"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
        x="12.05103"
+       y="50.244984"
+       id="text873-9"><tspan
+         sodipodi:role="line"
+         id="tspan871-88"
+         x="12.05103"
+         y="50.244984"
+         style="stroke-width:1.05833">breaking.added.fixed</tspan></text>
+    <rect
+       y="4.0332031e-07"
+       x="768"
+       height="68"
+       width="732"
+       id="rect869-1-9"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:1.05667;stop-opacity:1" />
+    <text
+       id="text873-7-7"
+       y="50.24498"
+       x="780.05103"
        style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
        xml:space="preserve"><tspan
          style="stroke-width:1.05833"
-         y="50.244984"
-         x="12.05103"
-         id="tspan871-88"
-         sodipodi:role="line">breaking.added.fixed</tspan></text>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:1.05667;stop-opacity:1"
-       id="rect869-1-9"
-       width="732"
-       height="68"
-       x="768"
-       y="4.0332031e-07" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       x="780.05103"
-       y="50.24498"
-       id="text873-7-7"><tspan
-         sodipodi:role="line"
-         id="tspan871-6-6"
+         y="50.24498"
          x="780.05103"
-         y="50.24498"
-         style="stroke-width:1.05833">BREAKING.breaking+added.fixed</tspan></text>
+         id="tspan871-6-6"
+         sodipodi:role="line">BREAKING.breaking+added.fixed</tspan></text>
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.900826;stop-opacity:1"
-       id="rect869-2-4"
-       width="532"
-       height="68"
+       y="4.0332031e-07"
        x="1536"
-       y="4.0332031e-07" />
+       height="68"
+       width="532"
+       id="rect869-2-4"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.900826;stop-opacity:1" />
+    <text
+       id="text873-8-5"
+       y="50.24498"
+       x="1548.0513"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.05833"
+         y="50.24498"
+         x="1548.0513"
+         id="tspan871-8-4"
+         sodipodi:role="line">0.breaking+added.fixed</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       x="1548.0513"
-       y="50.24498"
-       id="text873-8-5"><tspan
-         sodipodi:role="line"
-         id="tspan871-8-4"
-         x="1548.0513"
-         y="50.24498"
-         style="stroke-width:1.05833">0.breaking+added.fixed</tspan></text>
-    <text
-       id="text2163"
-       y="494.58594"
-       x="1658.4648"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:0.340081;stroke:none"
-       xml:space="preserve"><tspan
-         y="494.58594"
-         x="1658.4648"
+       x="1691.8945"
+       y="494.58594"
+       id="text2163"><tspan
+         sodipodi:role="line"
          id="tspan2161"
-         sodipodi:role="line">(c) DiffPlug 2020 CC BY-SA 4.0</tspan></text>
+         x="1691.8945"
+         y="494.58594">©2020 DiffPlug CC BY-SA 4.0</tspan></text>
   </g>
 </svg>

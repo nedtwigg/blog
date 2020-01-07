@@ -8,40 +8,40 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="72.375"
-   inkscape:export-xdpi="72.375"
-   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-0.x-naive.png"
-   width="1536"
-   height="512"
-   viewBox="0 0 1536 512"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="post-0.x-naive.svg"
    inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
-   sodipodi:docname="post-0.x-naive.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 1536 512"
+   height="512"
+   width="1536"
+   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-0.x-naive.png"
+   inkscape:export-xdpi="72.375"
+   inkscape:export-ydpi="72.375">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="885.65657"
-     inkscape:cy="340.60915"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
-     showguides="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="760"
-     inkscape:window-x="580"
-     inkscape:window-y="1463"
+     scale-x="1"
      inkscape:window-maximized="0"
-     scale-x="1" />
+     inkscape:window-y="1463"
+     inkscape:window-x="580"
+     inkscape:window-height="760"
+     inkscape:window-width="1440"
+     showguides="false"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="352.73098"
+     inkscape:cx="773.52964"
+     inkscape:zoom="0.49497475"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -55,9 +55,9 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <image
        sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/img-0.r+g.b.jpeg"
        xlink:href="img-0.r+g.b.jpeg"
@@ -79,14 +79,14 @@
        style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
        id="image1668" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:0.340081;stroke:none"
-       x="896.46484"
+       id="text2163"
        y="494.58594"
-       id="text2163"><tspan
-         sodipodi:role="line"
+       x="926.89453"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:0.340081;stroke:none"
+       xml:space="preserve"><tspan
+         y="494.58594"
+         x="926.89453"
          id="tspan2161"
-         x="896.46484"
-         y="494.58594">(c) DiffPlug 2020 CC BY-SA 4.0</tspan></text>
+         sodipodi:role="line">©2020 DiffPlug CC BY-SA 4.0</tspan></text>
   </g>
 </svg>
