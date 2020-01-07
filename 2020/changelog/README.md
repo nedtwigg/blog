@@ -1,5 +1,3 @@
-![Title image](post-title.jpeg)
-
 # version = f(changelog)
 
 As a user, it's nice when a project has a changelog.  As a maintainer, it's a chore to keep the changelog up-to-date, and so many of us don't.  Unfortunately for maintainers, we can't opt-out from asking "Is this a big-enough change to justify a new major version?  Is this good enough for 1.0?"  But the "changelog" and "version" tasks are actually tightly coupled!
@@ -76,25 +74,25 @@ If you happen to be using the JVM, [Spotless Changelog](https://github.com/diffp
 
 ## Pre-1.0, 0.x, and other forms of performative insecurity
 
-As we just showed, one of the things your version can easily be is **(concise compatibility guarantee).(new-feature advertisement).(no-downside risk to upgrade)**, but that is an unpopular way for authors to pick their version. The most popular way to use the version string is to communicate that the author holds their code (or at least its public API) in low regard.  Across all of NPM[1]:
+As we just showed, one of the things your version can easily be is **(concise compatibility guarantee).(new feature advertisement).(lowest downside risk to upgrade)**, but that is an unpopular way for authors to pick their version. The most popular way to use the version string is to communicate that the author holds their code (or at least its public API) in low regard.  Across all of NPM[1]:
 
 - 82% of packages are maintained by impostor syndrome people publishing as `0.x`
 - 14% of packages are maintained by Dunning-Kruger people who publish as `1.x`
-- 3% of packages are maintained by **engineers**, with a wide-spectrum of self-confidence, who nonetheless turn the crank and publish **(concise compatibility guarantee).(new-feature advertisement).(no-downside risk to upgrade)**
+- 3% of packages are maintained by **engineers**, with a wide-spectrum of self-confidence, who nonetheless turn the crank and publish **(concise compatibility guarantee).(new feature advertisement).(lowest downside risk to upgrade)**
 
-*If a library has a version, and no one depends on it, does it even have a version?*  Who cares!  But once someone has decided to use your library as a dependency, who cares how good *you* think it is.  *Your users* think that it's good!  Or at least *good enough*.  The terrible thing about `0.x` is that *the more unstable a codebase is, the more valuable **(concise compatibility guarantee).(new-feature advertisement).(lowest expected downside risk of upgrade)** would be!*
+*If a library has a version, and no one depends on it, does it even have a version?*  Who cares!  But once someone has decided to use your library as a dependency, who cares how good *you* think it is.  *Your users* think that it's good!  Or at least *good enough*.  The terrible thing about `0.x` is that *the more unstable a codebase is, the more valuable **(concise compatibility guarantee).(new feature advertisement).(lowest downside risk to upgrade)** would be!*
 
-But popularity is what it is, and you're going to keep publishing things with `0.x`.  I will judge you for that, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is *exactly* analagous to smashing an `R.G.B` image into `0.(R+G).B`.
+But popularity is what it is, and you're going to keep publishing things with `0.x`.  I will judge you for that, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is *exactly* analagous to smashing an `R.G.B` image into `0.R+G.B`.
 
-![0.r+g.b](img-0.r+g.b.jpeg)
+![0.R+G.B](post-0.x-naive.jpg)
 
-But in terms of *information content*, it's far worse.  The `0.(R+G).B` transformation preserves intensity information, which is by far the most important signal in vision, human or otherwise.  To see the exact *perceptual* analogue, we have to go to the rg chromaticity space[2].
+But in terms of *information content*, it's far worse.  The `0.R+G.B` image transformation preserves intensity information, which is by far the most important signal in vision.  But the `0.breaking+added.fixed` loses compatibility information, which is by far the most important signal in a version string.  For an *information content* analogue, we have to remove intensity information from the image.[2]
 
-![0.r+g.b](img-0.rg-chromaticity.jpeg)
+![0.r+g.b (no intensity info)](post-0.x-rg-chromaticity.jpg)
 
-One actually good usecase for `0.x` is to make sure that the `publish` command is actually working.  But once you know that the publish is working, it's really time for `1.x`.  It's not a big deal!  This is how seriously you should take the `0.x` to `1.0` transition:
+One of the few good usecases for `0.x` is to make sure that the publish process is actually working.  But once you've got that working, it's time for `1.x`.  If nobody else uses it, then it doesn't matter what you picked.  And if they do, they're better off if you're giving them semver.  This is how solemn the `0.x` to `1.x` should feel:
 
-![Plastic unpeel](http://www.gearlive.com/images/gearlive-gallery/012-kodak-zi6-unboxing.jpg)
+![Plastic unpeel](post-unpeel.jpg)
 
 [1] [I guess the remaining 1% are maintained by, uh, rounding error?](http://npmbynumbers.bocoup.com).
 [2] Technically, this is the "(rg)b chromaticity space", because we've made R and G indistinguishable from each other by mashing them together.  TODO: link to image-processing code.
@@ -115,9 +113,9 @@ Here is a true fact: *If you require your users to change the methods and tools 
 
 If this is an intentional choice, then fine!  In 2015, the MacBook Pro had USB ports and a keyboard.  In 2016, it had neither[1].  They didn't call it `MacCpuAndScreen ButNoHumanOrUsbInputPro`.  And that's smart!  Apple has a strong opinion that humans should not type on laptops, and also that they should not plug USB devices into their laptops, and they are intentionally exercising their marketing and technical leadership to push us into the USB-C future[3].  They sure as heck don't want anyone selling retrofit kits for their new laptops, so why would they intentionally make it easy for people to talk about the old laptop versus the new one?
 
-But if you're publishing an open source library where anybody can fork and contribute, why would you make this choice?  Why would you choose `brand_preservation_token.breaking+added.fixed` over `breaking.added.fixed`?  I think it's a misunderstanding of what a brand is.  **A brand is a sound with a human reputation**.  You've heard the spiel about apple the fruit vs Apple the brand, I don't have anything new to say about it.  But don't forget that **sounds compose**! You can combine them!  Don't "preserve" your brand, **grow** it!  Prefix it, suffix it, hyphenate it!  All of these operations preserve search and tagging. `CementBlocks 1.0`, `CementBlocks 2.0 (The Brick Series)`.    If you *really* want to go the "2" route, do it like this: `Cement2 1.0`.  At least that gives people a chance to tag things `#cement` vs `#cement2`.  But you really lose a lot of information with the `brand_preservation_token` thing, and you don't get much (anything?) in return.
+But if you're publishing an open source library where anybody can fork and contribute, why would you make this choice?  Why would you choose `brand_preservation_token.breaking+added.fixed` over `breaking.added.fixed`?  I think it's a misunderstanding of what a brand is.  **A brand is a sound with a human reputation**.  You've heard the spiel about apple the fruit vs Apple the brand, I don't have anything new to say about it.  But don't forget that **sounds compose**! You can combine them!  Don't "preserve" your brand, **grow** it!  Prefix it, suffix it, hyphenate it!  All of these operations preserve search and tagging. `CementBlocks 1.0`, `CementBlocks 2.0 (The Brick Series)`.    If you *really* want to go the "2" route, do it like this: `Cement2 1.0`.  At least that gives people a chance to tag things `#cement` vs `#cement2`.  But you really lose a lot of information with the `brand_preservation_token` thing (you lose almost as much as `0.x`), and you don't get much (anything?) in return.
 
-![BREAKING.breaking+added.fixed](img-rg-chromaticity-binned-intensity.jpeg)
+![Summary image](post-summary.jpg)
 
 ## In summary
 
