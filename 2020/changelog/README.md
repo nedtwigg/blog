@@ -1,6 +1,8 @@
+![Title image](post-title.jpeg)
+
 # version = f(changelog)
 
-As a user, it's nice when a project has a changelog.  As a maintainer, it's a chore to keep the changelog up-to-date, and many maintainers don't.  Unfortunately, they can't opt-out from asking "Is this a big-enough change to justify a new major version?  Is this good enough for 1.0?"  But these two tasks are actually tightly coupled!
+As a user, it's nice when a project has a changelog.  As a maintainer, it's a chore to keep the changelog up-to-date, and so many of us don't.  Unfortunately for maintainers, we can't opt-out from asking "Is this a big-enough change to justify a new major version?  Is this good enough for 1.0?"  But the "changelog" and "version" tasks are actually tightly coupled!
 
 - **changelog**: what changed since the last version
 - **version**: project these changes (and the absolute level of project quality) onto the three-dimensional vector space of non-negative integers `x.y.z`, path dependent on the previously published three-vector
@@ -11,7 +13,7 @@ That sounds silly, but it's not.  There are real cultural norms around what leve
 
 I own a bicycle, and my kid rides on the back seat every morning on the way to school.  It's just a bicycle, we don't go very fast, but I still care quite a bit about its safety.  If I gave this bike to a semver-compliant mechanic, they would say one of three things to me:
 
-1. If you don't adjust the way you've been riding, you will crash.
+1. If you don't adjust the way you ride, you will crash.
 2. You can ride it the same way, but I added some extra gears you can use if you want.
 3. One of the bolts was loose, so I tightened it.
 
@@ -21,7 +23,7 @@ Obviously, (1) is a more important message than (2) or (3).  A more subtle disti
 
 For millenia, the way to describe temperature was: freezing, frigid, cold, warm, hot, boiling, melting. Even today, that's the scale that I use.  Does my kid need a jacket if it's 65°F?  I have no idea.  But if it's cold? Yes, they need a jacket if it's cold.
 
-Around 1600[^1], Galileo notices that liquids expand and contract ever so slightly with temperature[^1], and you can watch it happen if you put the liquid in a long skinny tube.  Sixty years later, somebody[^2] figures out to seal the tube so that you're only measuring temperature, and not accidentally pressure.  Forty years after that Newton becomes the ward of the Royal Mint[^2a] and tries (for the first time ever![^2aa]) to quantify the melting points of metals.  He sticks the tube in melting snow and calls it zero, then sticks the tube in his armpit and calls it twelve (which is objectively better than ten[^2b]), and extrapolates from there.[^3]  Fifteen more years go by, and Fahrenheit figures out that mercury is better than Newton's linseed oil, and Americans like me will thank him for that accomplishment literally forever.
+Around 1600[^1], Galileo notices that liquids expand ever so slightly with temperature[^1], and you can watch it happen if you put the liquid in a long skinny tube.  Sixty years later, somebody[^2] figures out to seal the tube so that you're only measuring temperature, and not pressure on accident.  Forty years after that Newton becomes the ward of the Royal Mint[^2a] and tries to define an absolute quantitative scale for the melting points of the metals used in coins.  He sticks the tube in melting snow and calls it zero, then sticks the tube in his armpit and calls it twelve (which is objectively better than ten[^2b]), and extrapolates from there.[^3]  Fifteen more years go by, and Fahrenheit figures out that mercury is better than Newton's linseed oil, and Americans like me will thank him for that accomplishment literally forever.
 
 In retrospect, it's quite vain to think our armpits would be some godly universal constant.  Just one apex-predator-of-the-era earlier, Tyrannosaurus Newton would have had no such luck, but just such vanity.  Perhaps that's what kept the dinosaurs from...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm off-track.
@@ -49,7 +51,7 @@ The clincher is that although *versions* don't matter that much, *changelogs* ab
 
 ## It's trivial to implement
 
-There is some disagreement over how to name `x.y.z`.  I'm going to use `BREAKING.ADDED.FIXED`.  If you're using the standard [keepachangelog](https://keepachangelog.com/en/1.0.0/) format, it is a trivial computation to turn a changelog into a version bump.
+There is some disagreement over how to name the digits in `x.y.z`.  I'm going to use `BREAKING.ADDED.FIXED`.  If you're using the standard [keepachangelog](https://keepachangelog.com/en/1.0.0/) format, it is a trivial computation to turn a changelog into a version bump.
 
 ```
 ## [Unreleased]
@@ -64,7 +66,7 @@ There is some disagreement over how to name `x.y.z`.  I'm going to use `BREAKING
 When it comes time to cut a release, just follow this algorithm:
 
 - Find `\n## [Unreleased]`
-- Scan from there until you find `\n## [x.y.z] - yyyy-mm-dd\n`
+- Scan from there until you find `\n## [x.y.z] - yyyy-mm-dd`
 - Within that string that you just extracted
 	- Can you find `**BREAKING**`?  If so, bump `BREAKING`.
 	- Can you find `\n### Added`?  If so, bump `ADDED`.
@@ -74,28 +76,61 @@ If you happen to be using the JVM, [Spotless Changelog](https://github.com/diffp
 
 ## Pre-1.0, 0.x, and other forms of performative insecurity
 
-Many people [misuse versions as though they were brands](https://youtu.be/AVGM7kH7Hjw?t=10), rather than **a concise technical description of the integration work your users can expect**.  Just because "the Web" made a big deal about its "2.0" release, that doesn't mean that you should inflict that same languagemurder onto the people who use your projects.  If you want to make a big deal about a new release, add a [release brand](https://kichwacoders.com/2016/04/28/why-its-time-to-kill-the-eclipse-release-namesneon-oxygen-etc/) (e.g. `FooLib 5.12 - ZΣЦƧ ΣDIƬIӨП`).  If you're not so much making a breaking change as making an entirely new thing (e.g. `Play Framework 1` vs `Play Framework 2`), then you'll do a lot better if you make a new name altogether (e.g. `PlayScala`, `PlayNew`, `NewPlay`, `Play64`, `Play360`, etc).
+As we just showed, one of the things your version can easily be is **(concise compatibility guarantee).(new-feature advertisement).(no-downside risk to upgrade)**, but that is an unpopular way for authors to pick their version. The most popular way to use the version string is to communicate that the author holds their code (or at least its public API) in low regard.  Across all of NPM[1]:
 
-If you really want to go the "2" route, do it like this: `Play2 1.0, Play2 1.1, Play2 2.0 Play2 3.0`.  If you don't, you will permanently destroy the ability of your users to A) google the project they meant and B) find **a concise technical description of the integration work they can expect**.
+- 82% of packages are maintained by impostor syndrome people publishing as `0.x`
+- 14% of packages are maintained by Dunning-Kruger people who publish as `1.x`
+- 3% of packages are maintained by **engineers**, with a wide-spectrum of self-confidence, who nonetheless turn the crank and publish **(concise compatibility guarantee).(new-feature advertisement).(no-downside risk to upgrade)**
 
-The more common way to <sub>ab</sub>use a version is to press it into service as a code-quality / roadmap-firmness metric.  Nobody, and I mean nobody, has code with that much quality, or a roadmap with that much firmness.  They're just doing their best.  Same as you!  You've got just as much right to call what you've built a `1.0` as anybody else who has ever released a `1.0`.
+*If a library has a version, and no one depends on it, does it even have a version?*  Who cares!  But once someone has decided to use your library as a dependency, who cares how good *you* think it is.  *Your users* think that it's good!  Or at least *good enough*.  The terrible thing about `0.x` is that *the more unstable a codebase is, the more valuable **(concise compatibility guarantee).(new-feature advertisement).(lowest expected downside risk of upgrade)** would be!*
 
-That said, it can be handy to have an `0.x` series for the purpose of getting a project onto its legs.  Once somebody besides you is using the project, you should bump to `1.0.0`, but ultimately that's for you to decide.  People will judge you for sharing `0.x` libraries, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is exactly analagous to smashing an `R.G.B` image into `0.(R+G).B`.
+But popularity is what it is, and you're going to keep publishing things with `0.x`.  I will judge you for that, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is *exactly* analagous to smashing an `R.G.B` image into `0.(R+G).B`.
 
 ![0.r+g.b](img-0.r+g.b.jpeg)
 
-But perceptually, it's far worse.  The `0.(R+G).B` transformation preserves intensity information, which is by far the most important signal in human vision.  To see the exact *perceptual* analogue, we have to go the rg chromaticity space.[^1]
+But in terms of *information content*, it's far worse.  The `0.(R+G).B` transformation preserves intensity information, which is by far the most important signal in vision, human or otherwise.  To see the exact *perceptual* analogue, we have to go to the rg chromaticity space[2].
 
 ![0.r+g.b](img-0.rg-chromaticity.jpeg)
 
-*&lt;whine&gt;But my code isn't stable.  The API might change.&lt;/whine&gt;*
+One actually good usecase for `0.x` is to make sure that the `publish` command is actually working.  But once you know that the publish is working, it's really time for `1.x`.  It's not a big deal!  This is how seriously you should take the `0.x` to `1.0` transition:
 
-![Looong inhale](cant-handle-the-truth.jpeg)
+![Plastic unpeel](http://www.gearlive.com/images/gearlive-gallery/012-kodak-zi6-unboxing.jpg)
 
-**Every API you have ever seen, known, or loved is going to die.** You'll probably even live long enough to see it with your own eyes. *You might even be the only&nbsp;&nbsp; one&nbsp;&nbsp; who&nbsp;&nbsp; notices.*
+[1] [I guess the remaining 1% are maintained by, uh, rounding error?](http://npmbynumbers.bocoup.com).
+[2] Technically, this is the "(rg)b chromaticity space", because we've made R and G indistinguishable from each other by mashing them together.  TODO: link to image-processing code.
 
-https://youtu.be/L9RPdBv-DkU?t=416
+## Your version can preserve your brand
 
-Whether that makes you lucky or not, I can't guess. But it is **goshdarn time** to **grow the fudge up** and take some **effing responsibility** for the fact that you're a maintainer now.
+After `0.x`, the second-most-popular way to use the breaking version is to communicate only the *big* breaking changes.  For example, if you made a material for building walls, you might call it `cement 1.0`.  You start adding rocks to it for extra strength (new feature!) so you call it `cement 1.1`.
 
-No one is ever ready to bump the changelog.  It's just like John Lennon said. ***Changelog is what happens while you're busy making other plans.***
+[[cement image]]
+
+A semver pedant would point out that `cement 1.0` was great at gluing things together, while `cement 1.1` is terrible at that, so you should bump the `breaking` version since it breaks some use cases.  But most people aren't semver pedants and they would agree that it doesn't break the *main* use case - it's only `breaking`, not `BREAKING`.
+
+But then, you have a breakthrough!  You start pouring the cement into pre-formed blocks and it works great!  It works so great that your whole internal team which had been working on `cement 1.x` is now focused entirely on these new preformed blocks.  It's the next generation of build walls: `cement 2.0`!  Then, you figure out how to make these blocks cheaper and more environmentally fridendly: `cement 2.1`.  A few years later, your team invents a new connected-beam method, which lets people build higher than ever: `cement 3.0`!
+
+[[cement to bricks to steel]]
+
+Here is a true fact: *If you require your users to change the methods and tools that they use, some of them will keep using the old thing, and never switch to the new thing.*  This is true, and it is okay.  It is okay for you to abandon the old thing, and it is okay for other people to keep using it.  But once you release `cement 2.0` and put your marketing and leadership behind it, you severely damage the ability of your users to maintain and improve `cement 1.0` on their own.  You permanently break search and hashtags for your `1.x` hold outs, and even your `2.x` users will forever encounter weird non-sensical results at the bottom of their queries, forever.
+
+If this is an intentional choice, then fine!  In 2015, the MacBook Pro had USB ports and a keyboard.  In 2016, it had neither[1].  They didn't call it `MacCpuAndScreen ButNoHumanOrUsbInputPro`.  And that's smart!  Apple has a strong opinion that humans should not type on laptops, and also that they should not plug USB devices into their laptops, and they are intentionally exercising their marketing and technical leadership to push us into the USB-C future[3].  They sure as heck don't want anyone selling retrofit kits for their new laptops, so why would they intentionally make it easy for people to talk about the old laptop versus the new one?
+
+But if you're publishing an open source library where anybody can fork and contribute, why would you make this choice?  Why would you choose `brand_preservation_token.breaking+added.fixed` over `breaking.added.fixed`?  I think it's a misunderstanding of what a brand is.  **A brand is a sound with a human reputation**.  You've heard the spiel about apple the fruit vs Apple the brand, I don't have anything new to say about it.  But don't forget that **sounds compose**! You can combine them!  Don't "preserve" your brand, **grow** it!  Prefix it, suffix it, hyphenate it!  All of these operations preserve search and tagging. `CementBlocks 1.0`, `CementBlocks 2.0 (The Brick Series)`.    If you *really* want to go the "2" route, do it like this: `Cement2 1.0`.  At least that gives people a chance to tag things `#cement` vs `#cement2`.  But you really lose a lot of information with the `brand_preservation_token` thing, and you don't get much (anything?) in return.
+
+![BREAKING.breaking+added.fixed](img-rg-chromaticity-binned-intensity.jpeg)
+
+## In summary
+
+- Changelogs are more useful than versions.
+- It is [easy to remove an unnecessary degree of freedom](https://github.com/diffplug/spotless-changelog) by setting `version = f(changelog)`.
+- This constraint lets you ignore versions, which don't matter very much.
+- This constraint will force your versions to have more information in them.
+- This constraint will better conceal your embarrassing insecurity.
+- This constraint may force you to *grow* the brand of your library rather than just *preserve* it.
+
+## Acknowledgements 
+
+- [Olivier Lacan](https://olivierlacan.com/) for inspiring a systematic approach with the [`keepachangelog`](https://keepachangelog.com/en/1.0.0/) project.
+- [Stephan Bönnemann-Walenta](https://twitter.com/boennemann) for the excellent talk [We fail to follow SemVer - and why it needn't matter](https://www.youtube.com/watch?v=tc2UgG5L7WM&feature=youtu.be&t=275).
+- [bocoup](https://bocoup.com/) for the very interesting [npm by numbers](http://npmbynumbers.bocoup.com/).
+- TODO: image licenses
