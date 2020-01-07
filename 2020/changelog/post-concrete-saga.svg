@@ -10,7 +10,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="72.375"
    inkscape:export-xdpi="72.375"
-   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-title.png"
+   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-cement-saga.png"
    width="2300"
    height="512"
    viewBox="0 0 2300 512"
@@ -51,8 +51,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="528.10609"
-     inkscape:cy="250.37848"
+     inkscape:cx="1509.9744"
+     inkscape:cy="-72.870335"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -134,111 +134,123 @@
        clip-path="url(#clipPath975)"
        transform="translate(-222.66675)" />
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.387112;stop-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.648842;stop-opacity:1"
        id="rect869-9"
-       width="98.243561"
+       width="276"
        height="68"
        x="-3.3349609e-06"
        y="2.6263849e-06" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       x="12.05103"
+       x="17.656303"
        y="50.244984"
        id="text873-9"><tspan
          sodipodi:role="line"
          id="tspan871-88"
-         x="12.05103"
+         x="17.656303"
          y="50.244984"
-         style="stroke-width:1.05833">1.0</tspan></text>
-    <rect
-       y="0"
-       x="460"
-       height="68"
-       width="98.243561"
-       id="rect869-9-6"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.387112;stop-opacity:1" />
-    <text
-       id="text873-9-0"
-       y="50.244984"
-       x="472.05106"
-       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       xml:space="preserve"><tspan
-         style="stroke-width:1.05833"
-         y="50.244984"
-         x="472.05106"
-         id="tspan871-88-0"
-         sodipodi:role="line">1.1</tspan></text>
-    <rect
-       y="0"
-       x="920"
-       height="68"
-       width="98.243561"
-       id="rect869-9-9"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.387112;stop-opacity:1" />
-    <text
-       id="text873-9-05"
-       y="50.24498"
-       x="932.05103"
-       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       xml:space="preserve"><tspan
-         style="stroke-width:1.05833"
-         y="50.24498"
-         x="932.05103"
-         id="tspan871-88-6"
-         sodipodi:role="line">2.0</tspan></text>
-    <rect
-       y="0"
-       x="1380"
-       height="68"
-       width="98.243561"
-       id="rect869-9-64"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.387112;stop-opacity:1" />
-    <text
-       id="text873-9-6"
-       y="50.24498"
-       x="1392.051"
-       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       xml:space="preserve"><tspan
-         style="stroke-width:1.05833"
-         y="50.24498"
-         x="1392.051"
-         id="tspan871-88-4"
-         sodipodi:role="line">2.1</tspan></text>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.387112;stop-opacity:1"
-       id="rect869-9-64-5"
-       width="98.243561"
-       height="68"
-       x="1840"
-       y="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
-       x="1852.051"
-       y="50.24498"
-       id="text873-9-6-5"><tspan
-         sodipodi:role="line"
-         id="tspan871-88-4-5"
-         x="1852.051"
-         y="50.24498"
-         style="stroke-width:1.05833">3.0</tspan></text>
+         style="stroke-width:1.05833">cement 1.0</tspan></text>
     <rect
        y="446.83258"
-       x="1579.2441"
+       x="1609.5487"
        height="68"
-       width="724.53815"
+       width="694.23358"
        id="rect869-9-64-5-3"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.33603242;stroke-width:1.05127;stop-opacity:1" />
+       style="opacity:1;fill:#ffffff;fill-opacity:0.43724698;stroke-width:1.02905;stop-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:0.58299595;stroke:none;"
-       x="1581.4648"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:0.52226722;stroke:none;"
+       x="1619.8506"
        y="494.58594"
        id="text2163"><tspan
          sodipodi:role="line"
          id="tspan2161"
-         x="1581.4648"
-         y="494.58594">(c) DiffPlug 2020 CC BY-NC-SA 4.0</tspan></text>
+         x="1619.8506"
+         y="494.58594">©2020 DiffPlug CC BY-NC-SA 4.0</tspan></text>
+    <rect
+       y="3.2080078e-07"
+       x="460"
+       height="68"
+       width="276"
+       id="rect869-9-3"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.648842;stop-opacity:1" />
+    <text
+       id="text873-9-1"
+       y="50.244976"
+       x="477.65631"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.05833"
+         y="50.244976"
+         x="477.65631"
+         id="tspan871-88-0"
+         sodipodi:role="line">cement 1.1</tspan></text>
+    <g
+       id="g1080-2"
+       transform="translate(338.77136,78.446709)">
+      <rect
+         y="-78.446709"
+         x="581.22864"
+         height="68"
+         width="276"
+         id="rect869-9-3-3"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.648842;stop-opacity:1" />
+      <text
+         id="text873-9-1-7"
+         y="-28.201733"
+         x="598.88495"
+         style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:1.05833"
+           y="-28.201733"
+           x="598.88495"
+           id="tspan871-88-0-1"
+           sodipodi:role="line">cement 2.0</tspan></text>
+    </g>
+    <g
+       id="g1080-8"
+       transform="translate(798.77136,78.446709)">
+      <rect
+         y="-78.446709"
+         x="581.22864"
+         height="68"
+         width="276"
+         id="rect869-9-3-9"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.648842;stop-opacity:1" />
+      <text
+         id="text873-9-1-3"
+         y="-28.201733"
+         x="598.88495"
+         style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:1.05833"
+           y="-28.201733"
+           x="598.88495"
+           id="tspan871-88-0-7"
+           sodipodi:role="line">cement 2.1</tspan></text>
+    </g>
+    <g
+       id="g1080-4"
+       transform="translate(1258.7714,78.446709)">
+      <rect
+         y="-78.446709"
+         x="581.22864"
+         height="68"
+         width="276"
+         id="rect869-9-3-8"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.5;stroke-width:0.648842;stop-opacity:1" />
+      <text
+         id="text873-9-1-0"
+         y="-28.201733"
+         x="598.88495"
+         style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:1.05833"
+           y="-28.201733"
+           x="598.88495"
+           id="tspan871-88-0-4"
+           sodipodi:role="line">cement 3.0</tspan></text>
+    </g>
   </g>
 </svg>
