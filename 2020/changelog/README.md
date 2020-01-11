@@ -49,7 +49,7 @@ The clincher is that although *versions* don't matter that much, *changelogs* ab
 
 ## It's trivial to implement
 
-There is some disagreement over how to name the digits in `x.y.z`.  I'm going to use `BREAKING.ADDED.FIXED`.  If you're using the standard [keepachangelog](https://keepachangelog.com/en/1.0.0/) format, it is a trivial computation to turn a changelog into a version bump.
+There is some disagreement over how to name the digits in `x.y.z`.  I'm going to use `breaking.added.fixed`.  If you're using the standard [keepachangelog](https://keepachangelog.com/en/1.0.0/) format, it is a trivial computation to turn a changelog into a version bump.
 
 ```
 ## [Unreleased]
@@ -82,7 +82,7 @@ As we just showed, one of the things your version can easily be is **(concise co
 
 *If a library has a version, and no one depends on it, does it even have a version?*  Who cares!  But once someone has decided to use your library as a dependency, who cares how good *you* think it is.  *Your users* think that it's good!  Or at least *good enough*.  The terrible thing about `0.x` is that *the more unstable a codebase is, the more valuable **(concise compatibility guarantee).(new feature advertisement).(lowest downside risk to upgrade)** would be!*
 
-But popularity is what it is, and you're going to keep publishing things with `0.x`.  I will judge you for that, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `ADDED` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is *exactly* analagous to smashing an `R.G.B` image into `0.R+G.B`.
+But habits are what they are, and you're going to keep publishing things with `0.x`.  I will judge you for that, but [Spotless Changelog](https://github.com/diffplug/spotless-changelog) won't.  It will just increment the `added` version (`0.1.0`, `0.2.0`, `0.3.0`, etc) whether your changelog has `**BREAKING**` or just `### Added`.  In terms of 3D vector space, this is *exactly* analagous to smashing an `R.G.B` image into `0.R+G.B`.
 
 ![0.R+G.B](post-0.x-naive.jpg)
 
