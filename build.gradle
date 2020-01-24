@@ -6,13 +6,11 @@ plugins {
 // FORMAT //
 ////////////
 String FOLLOW_LINK = '''
-[![Watch](https://img.shields.io/github/watchers/diffplug/blog.svg?style=social&label=Watch)](https://github.com/diffplug/blog/subscription)
-[![Star](https://img.shields.io/github/stars/diffplug/blog.svg?style=social&label=Star)](https://github.com/diffplug/blog/stargazers)
-[![Follow @DiffPlug](https://img.shields.io/twitter/follow/DiffPlug.svg?style=social&label=Follow)](https://twitter.com/DiffPlug)
+[![Watch](https://img.shields.io/github/watchers/diffplug/blog.svg?style=social&label=Watch)](https://github.com/nedtwigg/blog/subscription)
+[![Star](https://img.shields.io/github/stars/diffplug/blog.svg?style=social&label=Star)](https://github.com/nedtwigg/blog/stargazers)
 [![Follow @NedTwigg](https://img.shields.io/twitter/follow/NedTwigg.svg?style=social&label=Follow)](https://twitter.com/NedTwigg)
-[Blog](http://discuss.diffplug.com/c/blog), echoed on [Medium](https://medium.com/diffplug)
-[Facebook](https://www.facebook.com/DiffPlug)
-
+[![Medium ned.twigg](https://img.shields.io/badge/Follow-41-blue.svg?style=social&logo=medium)](https://dev.to/nedtwigg)
+[![dev.to nedtwigg](https://img.shields.io/badge/Follow-0-blue.svg?style=social&logo=dev.to)](https://dev.to/nedtwigg)
 '''
 // apply formatting in the root project so that we get formatting for our README, project files, etc
 spotless {
