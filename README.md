@@ -27,6 +27,7 @@ var githubLink = function(title, date) {
 	return '* ' + link(title, url) + ' (' + date + ')';
 };
 output = [
+	githubLink('Names in java, maven, and gradle',	'January 23, 2020'),
 	githubLink('Parting out Eclipse',				'August 17, 2016'),
 	githubLink('P2, Maven, and Gradle',				'July 14, 2016'),
 	githubLink('A library by any other version',	'May 15, 2015'),
@@ -35,6 +36,7 @@ output = [
 	'', ''
 	].join('\n');
 -->
+* [Names in java, maven, and gradle](https://github.com/diffplug/blog/tree/master/2020/names-in-java-maven-and-gradle) (January 23, 2020)
 * [Parting out Eclipse](https://github.com/diffplug/blog/tree/master/2016/parting-out-eclipse) (August 17, 2016)
 * [P2, Maven, and Gradle](https://github.com/diffplug/blog/tree/master/2016/p2-maven-and-gradle) (July 14, 2016)
 * [A library by any other version](https://github.com/diffplug/blog/tree/master/2015/a-library-by-any-other-version) (May 15, 2015)
