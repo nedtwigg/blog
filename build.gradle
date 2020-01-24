@@ -36,3 +36,7 @@ spotless {
 	}
 }
 check.dependsOn('spotlessCheck')
+
+tasks.register('test') {
+	dependsOn check
+}
