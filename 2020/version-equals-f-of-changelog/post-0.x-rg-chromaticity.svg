@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="post-0.x-rg-chromaticity.svg"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 1536 512"
+   height="512"
+   width="1536"
+   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-0.x-rg-chromaticity.png"
+   inkscape:export-xdpi="72.375"
+   inkscape:export-ydpi="72.375">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     scale-x="1"
+     inkscape:window-maximized="0"
+     inkscape:window-y="1536"
+     inkscape:window-x="579"
+     inkscape:window-height="760"
+     inkscape:window-width="1440"
+     showguides="false"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="457.09358"
+     inkscape:cx="256.34807"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/img-0.rg-chromaticity.jpeg"
+       xlink:href="img-0.rg-chromaticity.jpeg"
+       y="0"
+       x="768"
+       width="768"
+       height="512"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image1087" />
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/img-rgb.png"
+       xlink:href="img-rgb.png"
+       y="0"
+       x="0"
+       width="768"
+       height="512"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image1668" />
+    <text
+       id="text2163"
+       y="494.58594"
+       x="926.89453"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:0.340081;stroke:none"
+       xml:space="preserve"><tspan
+         y="494.58594"
+         x="926.89453"
+         id="tspan2161"
+         sodipodi:role="line">©2020 DiffPlug CC BY-SA 4.0</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="72.375"
+   inkscape:export-xdpi="72.375"
+   inkscape:export-filename="/Users/ntwigg/Documents/dev/blog/2020/post-cement-saga.png"
+   width="2300"
+   height="512"
+   viewBox="0 0 2300 512"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
+   sodipodi:docname="post-concrete-saga.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath971"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="fill:#00ffff;fill-opacity:0.340081;stroke-width:1.17321"
+         id="rect973"
+         width="460"
+         height="512"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       id="clipPath975"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="0"
+         x="1142.6667"
+         height="512"
+         width="460"
+         id="rect977"
+         style="fill:#00ffff;fill-opacity:0.340081;stroke-width:1.17321" />
+    </clipPath>
+    <clipPath
+       id="clipPath1719"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="8.6320804e-05"
+         x="1840.0004"
+         height="512"
+         width="460"
+         id="rect1721"
+         style="fill:#38ffff;fill-opacity:0.437247;stroke-width:5.81748" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1179.9556"
+     inkscape:cy="164.89188"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="907"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/raw-cement.jpg"
+       xlink:href="raw-cement.jpg"
+       y="0"
+       x="-72.555687"
+       width="767.99994"
+       height="512"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image1771" />
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/raw-bricks.jpg"
+       xlink:href="raw-bricks.jpg"
+       y="6.5414992e-05"
+       x="1300.0004"
+       width="768.00018"
+       height="512.00012"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image922" />
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/raw-concrete.jpg"
+       xlink:href="raw-concrete.jpg"
+       y="6.5332468e-05"
+       x="460.00012"
+       width="495"
+       height="512"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image950" />
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/raw-cement-block.jpg"
+       xlink:href="raw-cement-block.jpg"
+       y="0"
+       x="920"
+       width="682.66669"
+       height="512"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image908"
+       clip-path="url(#clipPath975)"
+       transform="translate(-222.66681,6.501167e-5)" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.60000002;stroke-width:0.648842;stop-opacity:1"
+       id="rect869-9"
+       width="276.00006"
+       height="68.000015"
+       x="-3.3349609e-06"
+       y="6.7638059e-05" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       x="17.656307"
+       y="50.245064"
+       id="text873-9"><tspan
+         sodipodi:role="line"
+         id="tspan871-88"
+         x="17.656307"
+         y="50.245064"
+         style="stroke-width:1.05833">cement 1.0</tspan></text>
+    <image
+       sodipodi:absref="/Users/ntwigg/Documents/dev/blog/2020/changelog/raw-steel.jpg"
+       xlink:href="raw-steel.jpg"
+       y="-1.922024"
+       x="1641.9335"
+       width="910.00018"
+       height="512.00012"
+       preserveAspectRatio="none"
+       style="opacity:1;image-rendering:optimizeQuality;stop-opacity:1"
+       id="image1713"
+       clip-path="url(#clipPath1719)" />
+    <rect
+       y="446.83276"
+       x="1680.9777"
+       height="68.000015"
+       width="622.80518"
+       id="rect869-9-64-5-3"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.437247;stroke-width:0.974675;stop-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:0.522267;stroke:none"
+       x="1691.2797"
+       y="494.58612"
+       id="text2163"><tspan
+         sodipodi:role="line"
+         id="tspan2161"
+         x="1691.2797"
+         y="494.58612">©2020 DiffPlug CC BY-SA 4.0</tspan></text>
+    <rect
+       y="6.5332468e-05"
+       x="460.00012"
+       height="68.000015"
+       width="276.00006"
+       id="rect869-9-3"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.60000002;stroke-width:0.648842;stop-opacity:1" />
+    <text
+       id="text873-9-1"
+       y="50.245056"
+       x="477.65643"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.05833"
+         y="50.245056"
+         x="477.65643"
+         id="tspan871-88-0"
+         sodipodi:role="line">cement 1.1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.60000002;stroke-width:0.648842;stop-opacity:1"
+       id="rect869-9-3-3"
+       width="276"
+       height="68"
+       x="920.00006"
+       y="8.6320804e-05" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       x="937.65637"
+       y="50.245064"
+       id="text873-9-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan871-88-0-1"
+         x="937.65637"
+         y="50.245064"
+         style="stroke-width:1.05833">cement 2.0</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.60000002;stroke-width:0.648842;stop-opacity:1"
+       id="rect869-9-3-9"
+       width="276"
+       height="68"
+       x="1380.0002"
+       y="8.6320804e-05" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       x="1397.6565"
+       y="50.245064"
+       id="text873-9-1-3"><tspan
+         sodipodi:role="line"
+         id="tspan871-88-0-7"
+         x="1397.6565"
+         y="50.245064"
+         style="stroke-width:1.05833">cement 2.1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.60000002;stroke-width:0.648842;stop-opacity:1"
+       id="rect869-9-3-8"
+       width="276"
+       height="68"
+       x="1840.0004"
+       y="8.6320804e-05" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3332px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stop-opacity:1"
+       x="1857.6566"
+       y="50.245064"
+       id="text873-9-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan871-88-0-4"
+         x="1857.6566"
+         y="50.245064"
+         style="stroke-width:1.05833">cement 3.0</tspan></text>
+    <rect
+       y="-187.88837"
+       x="-200"
+       height="844.68085"
+       width="200"
+       id="rect1775"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.05314" />
+  </g>
+</svg>
