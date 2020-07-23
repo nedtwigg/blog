@@ -122,7 +122,7 @@ But if you're publishing an open source library where anybody can fork and contr
 - This constraint will better conceal your embarrassing insecurity.
 - This constraint may force you to *grow* the brand of your library rather than just *preserve* it.
 
-## Acknowledgements 
+## Acknowledgements
 
 - [Olivier Lacan](https://olivierlacan.com/) for inspiring a systematic approach with the [`keepachangelog`](https://keepachangelog.com/en/1.0.0/) project.
 - [Stephan Bönnemann-Walenta](https://twitter.com/boennemann) for the excellent talk [We fail to follow SemVer - and why it needn't matter](https://www.youtube.com/watch?v=tc2UgG5L7WM&feature=youtu.be&t=275).
@@ -130,8 +130,8 @@ But if you're publishing an open source library where anybody can fork and contr
 - The original parrot image was taken by Steve Kelly and donated to the image processing world by Eastman Kodak.  We modified it using the [`imagegen.m`](imagegen.m) script.
 - The peeling plastic film image is from [Gear Live](http://www.gearlive.com/gallery/image_full/142268), licensed under [CC Public Domain](https://creativecommons.org/share-your-work/public-domain/).
 - The concrete 1.x, 2.x and 3.x is a collage we made of the following images, left-to-right.
-    - 1.0: [Wikimedia](https://commons.wikimedia.org/wiki/File:Cement_Worker.jpg).  Adinmas.  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
-    - 1.1: [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=250638&picture=cement-and-rust-grunge-background).  Linnaea Mallette. [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
-    - 2.0: [Wikimedia](https://commons.wikimedia.org/wiki/File:Concreteblocks.jpg). Achim Hering. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
-    - 2.1: [torange.biz](https://torange.biz/brick-laying-2880).  [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-    - 3.0: [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=2303&picture=steel-beam).  Peter Griffin.  [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
+	- 1.0: [Wikimedia](https://commons.wikimedia.org/wiki/File:Cement_Worker.jpg).  Adinmas.  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+	- 1.1: [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=250638&picture=cement-and-rust-grunge-background).  Linnaea Mallette. [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
+	- 2.0: [Wikimedia](https://commons.wikimedia.org/wiki/File:Concreteblocks.jpg). Achim Hering. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+	- 2.1: [torange.biz](https://torange.biz/brick-laying-2880).  [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+	- 3.0: [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=2303&picture=steel-beam).  Peter Griffin.  [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
