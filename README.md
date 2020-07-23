@@ -23,10 +23,15 @@ I put all my blog posts here so that I can run CI on the code examples, and make
 <!---freshmark toc
 var githubLink = function(title, date) {
 	var year = date.substring(date.lastIndexOf(' ') + 1);
-	var url = 'https://github.com/diffplug/blog/tree/master/' + year + '/' + title.toLowerCase().replace(/[, ]+/g, '-');
+	var folder = title.toLowerCase().replace(/[, ]+/g, '-');
+	if (title === 'version = f(changelog)') {
+		folder = 'version-equals-f-of-changelog'
+	}
+	var url = 'https://github.com/diffplug/blog/tree/master/' + year + '/' + folder;
 	return '* ' + link(title, url) + ' (' + date + ')';
 };
 output = [
+	githubLink('version = f(changelog)',			'July 22, 2020'),
 	githubLink('Names in java, maven, and gradle',	'January 23, 2020'),
 	githubLink('Parting out Eclipse',				'August 17, 2016'),
 	githubLink('P2, Maven, and Gradle',				'July 14, 2016'),
@@ -36,6 +41,7 @@ output = [
 	'', ''
 	].join('\n');
 -->
+* [version = f(changelog)](https://github.com/diffplug/blog/tree/master/2020/version-equals-f-of-changelog) (July 22, 2020)
 * [Names in java, maven, and gradle](https://github.com/diffplug/blog/tree/master/2020/names-in-java-maven-and-gradle) (January 23, 2020)
 * [Parting out Eclipse](https://github.com/diffplug/blog/tree/master/2016/parting-out-eclipse) (August 17, 2016)
 * [P2, Maven, and Gradle](https://github.com/diffplug/blog/tree/master/2016/p2-maven-and-gradle) (July 14, 2016)
